@@ -1,32 +1,28 @@
-This project performs automatic sample tests on <a>https://rahulshettyacademy.com/AutomationPractice/#/</a> using TypeScript, Playwright, POM. 
-Chosen tests, verify about 98% cases of actions what we can have on a daily basis, in web application testing.
+# Selenium Automation Practice Project
 
+This project performs automated tests on [https://rahulshettyacademy.com/AutomationPractice/#/](https://rahulshettyacademy.com/AutomationPractice/#/) using Python, Selenium, and the Page Object Model (POM) pattern.
 
-<h3>Prerequisites</h3>
+> **Note:** This is earlier practice work built while learning test automation fundamentals. Currently focused on Cypress — see [qa-automation-portfolio](link-to-that-repo) for current work.
 
+Chosen tests verify common day-to-day web application testing scenarios: dropdowns, checkboxes, radio buttons, window/tab handling, alerts, and table data validation.
+
+### Prerequisites
 - Git
-
-- Terminal (cmdr)
-  
+- Terminal
+- Python (version 3.7+)
 - Pytest
-  
-- Python (version >3.2.1)
+- Selenium
 
-<h3>Service description</h3>
-https://rahulshettyacademy.com/AutomationPractice/#/. This page is strictly dedicated for testing purposes, site is designed to have interesting and demanding test cases :-)
+### Service description
+[https://rahulshettyacademy.com/AutomationPractice/#/](https://rahulshettyacademy.com/AutomationPractice/#/) — this page is designed specifically for automation testing practice, with a range of common UI interaction scenarios.
 
-<h3>Steps to run tests:</h3>
-  
-- Open terminal.
+### Steps to run tests:
+1. Open terminal.
+2. Navigate to project directory.
+3. Install dependencies: `pip install pytest selenium`
+4. Run: `pytest --html=report.html`
 
-- Navigate to project directory
-
-- Install dependencies: pip install pytest
-
-- Type: pytest --html=report.html
-
-
-<h3>Test results:</h3>
-The run report will be available after performing the run in the  "tests" folder.
+### Test results:
+The run report will be available in the `tests` folder after execution.
 
 
