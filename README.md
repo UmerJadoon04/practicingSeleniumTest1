@@ -2,8 +2,7 @@
 
 This project performs automated tests on [https://rahulshettyacademy.com/AutomationPractice/#/](https://rahulshettyacademy.com/AutomationPractice/#/) using Python, Selenium, and the Page Object Model (POM) pattern.
 
-> **Note:** This is earlier practice work built while learning test automation fundamentals. Currently focused on Cypress — see [qa-automation-portfolio](link-to-that-repo) for current work.
-
+>> **Note:** This is earlier practice work built while learning test automation fundamentals. Currently focused on Cypress — see [qa-automation-portfolio](https://github.com/UmerJadoon04/Cypress-QA-Automation) for current work.
 Chosen tests verify common day-to-day web application testing scenarios: dropdowns, checkboxes, radio buttons, window/tab handling, alerts, and table data validation.
 
 ### Prerequisites
